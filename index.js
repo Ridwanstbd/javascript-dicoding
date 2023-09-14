@@ -1,3 +1,4 @@
+// fundamental javascript start
 // this is single comment 
 console.log("hello world"); // also single comment an on left is 1. statement
 /* this multiple comment 2. comment
@@ -33,8 +34,8 @@ let assignment = 12
 14 <= 13 
 17 >= 10 
 // can combine with arithmatics
-num *= bigInt
-num -= bigInt
+num *= 2
+num -= 3
 /* comparison operator 
 is return an boolean
 */
@@ -97,3 +98,30 @@ while (counter < maxLoop){
 
     counter++
 }
+// fundamental javascript end
+// data Structure javascript start
+
+/**
+ * 1. Membuat Array 
+ */
+const days = ['minggu','senin','selasa','rabu']
+
+/**
+ * 2. Elemen di dalam Array diakses atau diubah melalui index(key)
+ */
+const day2 = days[1]
+console.log(day2);
+days[0] = 'Ahad'
+console.log(days[0]);
+console.log(days);
+/**
+ * 3. Elemen boleh memiliki tipe data yang berbeda
+ */
+
+/**
+ * 4. tipe data array adalah object
+ */
+
+
+
+// data Structure javascript end
